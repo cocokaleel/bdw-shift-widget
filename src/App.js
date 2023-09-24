@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import Workshops from './widgets/workshops';
+import Monitors from './widgets/monitors.js'
 import './App.css';
 
 function App() {

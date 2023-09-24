@@ -1,6 +1,6 @@
 function Workshops() {
     return (<div>
-        <p>Workshops</p>
+        <h1>Workshops</h1>
     </div>);
 }
 
