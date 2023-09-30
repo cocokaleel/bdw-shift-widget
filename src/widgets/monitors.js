@@ -1,5 +1,6 @@
 import React from "react";
 import data from './monitor-info/monitors.json'
+import Dropdown from "./dropdown";
 
 
 class Monitors extends React.Component {
@@ -15,13 +16,8 @@ class Monitors extends React.Component {
         console.log(data)
         //defines the render rules
         return (<div>
-            <h1>Monitors</h1>
-            <select id="monitor1">
-                {data.monitors.map((name_string)=>{return <option value={name_string}>{name_string}</option>})}
-            </select>
-            <select id="monitor2">
-                {data.monitors.map((name_string)=>{return <option value={name_string}>{name_string}</option>})}
-            </select>
+            <Dropdown key="1"/>
+            <Dropdown key="2"/>
         </div>)
     }
 }
