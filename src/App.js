@@ -1,5 +1,6 @@
 import Workshops from './widgets/workshops';
-import Monitors from './widgets/monitors.js'
+import Monitors from './widgets/monitors.js';
+import LaserQueue from './widgets/laser-queue';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Workshops className="widget"/>
       <Monitors className="widget"/>
+      <LaserQueue className="widget"/>
     </div>
   );
 }
