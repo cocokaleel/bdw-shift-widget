@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Workshops className="widget"/>
-      <Monitors className="widget"/>
-      <LaserQueue className="widget"/>
+      <Workshops/>
+      <Monitors/>
+      <LaserQueue/>
     </div>
   );
 }

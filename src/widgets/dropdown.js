@@ -24,7 +24,7 @@ class Dropdown extends React.Component {
         // console.log(this.state.selected_monitor)
         // console.log("/monitor-info/pictures/"+data["monitor-photos"][this.state.selected_monitor])
         return (
-            <div>
+            <div class="dropdown">
                 {/* Display monitor on duty, and have name if the monitor has checked in */}
                 <p>MONITOR ON DUTY: {!this.state.sel ? "No monitor checked in" : this.state.selected_monitor}</p>
                 {/* Create a dropdown that updates state with the selected Monitor */}

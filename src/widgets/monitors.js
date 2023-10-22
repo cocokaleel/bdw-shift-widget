@@ -15,7 +15,8 @@ class Monitors extends React.Component {
         console.log("about to log:")
         console.log(data)
         //defines the render rules
-        return (<div>
+        return (<div className="widget">
+            <h1>Monitors on Duty</h1>
             <Dropdown key="1"/>
             <Dropdown key="2"/>
         </div>)

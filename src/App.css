@@ -18,6 +18,30 @@
   /* color: white; */
 }
 
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown {
+  width: 48%;
+  float: left;
+  margin: 1%;
+}
+
 .widget {
-  background-color: #61dafb;
+  /* background-color: #61dafb; */
+  width: 33%;
+  height: 50%;
+  float: left;
+}
+
+img {
+  width: 90%;
+  /* height: 20%; */
+}
+
+iframe#workshop-calendar {
+  width: 90%;
 }
